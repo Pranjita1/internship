@@ -9,7 +9,7 @@ df = df.drop(df.index[0])
 
 df.to_csv('exchange.csv')
 
-df = pd.read_csv('exchange.csv')#this is the csv file to be used in ProM
+df = pd.read_csv('exchange.csv')#this is the csv file to be used in ProM after configuring cases
 
 
 #configuring cases
